@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Bầu cua</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main flex-box">
+        <div class="content flex-box">
+            <div class="result flex-box">
+                <img src="img/bau.png" alt="" id="result-1">
+                <img src="img/bau.png" alt="" id="result-2">
+                <img src="img/bau.png" alt="" id="result-3">
+            </div>
+            <div class="play flex-box">
+                <button id="play">Quay</button>
+            </div>
+            <div class="bet flex-box">
+                <div class="card">
+                    <img src="img/bau.png" alt="">
+                    <span class="number" id="bau-num">0</span>
+                </div>
+                <div class="card" id="cua-card">
+                    <img src="img/cua.png" alt="">
+                    <span class="number" id="cua-num">0</span>
+                </div>
+                <div class="card">
+                    <img src="img/tom.png" alt="">
+                    <span class="number" id="tom-num">0</span>
+                </div>
+                <div class="card">
+                    <img src="img/ca.png" alt="">
+                    <span class="number" id="ca-num">0</span>
+                </div>
+                <div class="card">
+                    <img src="img/huou.png" alt="">
+                    <span class="number" id="huou-num">0</span>
+                </div>
+                <div class="card">
+                    <img src="img/ga.png" alt="">
+                    <span class="number" id="ga-num">0</span>
+                </div>
+            </div>
+            <div class="note-reset flex-box">
+                <div class="note flex-box">
+                    <p>Lưu ý:</p>
+                    <p>-Số lần đặt ở một 'Hình' sẽ là số lần xuất hiện của các 'Hình' trên 'Kết quả'</p>
+                    <p>-Tổng số điểm đặt trong một lần tối đa là 3</p>
+                </div>
+                <button id="reset">Đặt lại</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
